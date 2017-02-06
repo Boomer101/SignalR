@@ -1,0 +1,17 @@
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\SignalR.exe.config
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\SignalR.exe
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\SignalR.pdb
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.Diagnostics.dll
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.dll
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Owin.dll
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.xml
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.Diagnostics.xml
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\obj\Debug\OwinSample.csprojResolveAssemblyReference.cache
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\obj\Debug\SignalR.exe
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\obj\Debug\SignalR.pdb
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\Boomer\Documents\CAS\EADN\dev\EADN\SignalR\SignalR\bin\Debug\Microsoft.Owin.Host.HttpListener.xml

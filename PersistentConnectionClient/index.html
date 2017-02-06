@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Persistent Client</title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.1.js"></script>
+</head>
+<body>
+    <h2>SignalR: Persistent Connection Client</h2>
+    <input id="msg" />
+    <input type="button" id="btnSend" value="Send" />
+    <div>
+        <ul id="messageList"></ul>
+    </div>
+    <script>
+        $(function () {
+            var connection = $.connection("http://localhost:8080/ps");
+            connection.received(function (data) {
+                $("#messageList").append("<li>" + data + "</li>");
+            });
+
+            connection.error(function (error) {
+                console.log("Error SignalR" + error);
+            });
+
+            connection.start().done(function () {
+                console.log("Connection established");
+            }).fail(function (error) {
+                console.log("Error on connection start SignalR" + error);
+            });
+
+            $("#btnSend").click(function () {
+                var val = $("#msg").val();
+                connection.send(val);
+                $("#msg").val("");
+            })
+        });
+    </script>
+</body>
+</html>
