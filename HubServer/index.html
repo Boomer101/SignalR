@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.1.js"></script>
+</head>
+<body>
+    <h2>Hub Client Beispiel</h2>
+    <input id="msg"/>
+    <input type="button" id="btnSend" value="Send" />
+    <div>
+        <ul id="messages"></ul>
+    </div>
+
+    <script>
+        $(function () {
+            var connection = $.hubConnection("/signalr");
+            var chatProxy = connection.createHubProxy("DummyHub");
+
+            connection.logging = true;
+
+            chatProxy.on(("newMessageFromServer"), function (name, message) {
+                $("#messages").append("<li>" + name + message + "</li>");
+            });
+
+            connection.start().done(function () {
+                $("#btnSend").click(function () {
+                    chatProxy.invoke("MessageFromClient", location.hostname + ": ", $("#msg").val());
+                });
+            });
+        });
+    </script>
+</body>
+</html>
